@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-   font-size: 18px;
+  font-size: 18px;
 }
 
 .header__logo {
@@ -43,16 +43,16 @@
   justify-self: end;
 }
 
-.cover { 
+.cover {
   position: relative;
-  width:1100px;
+  width: 1100px;
   min-height: 757px;
   background-image:
   url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
   z-index: 1;
-  padding-top: 165px ;
+  padding-top: 165px;
   padding-left: 50px;
   padding-right: 20px;
   padding-bottom: 207px;
@@ -66,7 +66,7 @@
 }
 
 .aligned-text {
-  color: #FFFFFF;
+  color: #FFF;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 100px;
@@ -108,7 +108,7 @@
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 90%;
-  color:#FFFFFF;
+  color:#FFF;
   font-size:  22px;
   line-height: 28px;
 }
@@ -117,9 +117,9 @@
   width: 256px;
   height: 51px;
   background-color: transparent;
-  border-color: #FFFFFF;
+  border-color: #FFF;
   font-size: 22px;
-  color: #FFFFFF;
+  color: #FFF;
   text-transform: uppercase;
 }
 
@@ -197,7 +197,7 @@
 .card__text {
   line-height: 120%;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #FFF;
   font-size: 20px;
   z-index: 3;
 }
@@ -284,7 +284,7 @@
   padding-top: 16px;
 }
 
-.footer__address{
+.footer__address {
   padding-top: 15px;
 }
 
