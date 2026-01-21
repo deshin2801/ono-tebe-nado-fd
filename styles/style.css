@@ -59,7 +59,7 @@
 }
 
 .overlay {
-  inset:0;
+  inset: 0;
   position: absolute;
   background-color: rgb(0, 0, 0, 0.6);
   z-index: 2;
@@ -280,12 +280,14 @@
 .footer__menu-list {
   list-style-type: none;
   line-height: 115%;
-  padding-left: 76px;
-  padding-bottom: 115px;
+  padding-left: 115px;
+  padding-top: 16px;
 }
+
 .footer__address{
   padding-top: 15px;
 }
+
 .footer__social-list {
   display: flex;
   flex-direction: row;
