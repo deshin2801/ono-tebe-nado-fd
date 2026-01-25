@@ -146,7 +146,7 @@
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  column-gap: 25px;
+  gap: 25px;
 }
 
 .cards-list__item {
@@ -177,11 +177,11 @@
 }
 
 .card_type_book {
-   background-image: url("../images/card-lot-02.jpg");
+  background-image: url("../images/card-lot-02.jpg");
 }
 
 .card_type_picture {
-   background-image: url("../images/card-lot-03.jpg");
+  background-image: url("../images/card-lot-03.jpg");
 }
 
 .card__title {
@@ -272,6 +272,7 @@
   margin-top: 165px;
   font-weight: 400;
   font-size: 18px;
+  margin-bottom: 80px;
 }
 .footer__menu {
   text-align: center;
